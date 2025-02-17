@@ -2,3 +2,5 @@ $ ip a s | sed -e 's/\([0-9]\{1,3\}\.\)\{2\}/X.Y./g' --> remplace les deux premi
 
 $ tree --du -hF -L 9 | grep M] --> recherche jusqu'au 9 ème niveau tous les fichiers dont la taille est supérieure ou égale à 1 Mo
 $ tree --du -hF -L 3 | grep G] --> recherche jusqu'au 3 ème niveau tous les fichiers dont la taille est supérieure ou égale à 1 Go
+
+$ last --> pour connaître les dernières connexions sur le serveur 
